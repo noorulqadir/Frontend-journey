@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice Task</title>
+  </head>
+  <body>
+    <h2>Form</h2>
+    <form method="get">
+      <label for="fname">Full Name</label>
+      <input
+        type="text"
+        id="fname"
+        required
+        placeholder="Enter your Full name"
+      />
+      <br /><br />
+      <label for="email">Email</label>
+      <input type="email" id="email" required placeholder="Enter your Email" />
+      <br /><br />
+      <label for="mobile">Phone Number</label>
+      <input type="tel" id="mobile" placeholder="Enter your phone number" />
+      <br /><br />
+      <label for="passkey">Password</label>
+      <input
+        type="password"
+        id="passkey"
+        required
+        placeholder="Enter your password"
+      />
+      <br /><br />
+      <p>Gender:</p>
+      <input type="radio" name="gender" id="gender1" value="Male" /><label
+        for="gender1"
+        >Male</label
+      >
+      <input type="radio" name="gender" id="gender2" value="Female" /><label
+        for="gender2"
+        >Female</label
+      >
+      <p>Skills:</p>
+      <input type="checkbox" name="skills" id="skill1" value="html" />
+      <label for="skill1">HTML</label>
+      <input type="checkbox" name="skills" id="skill2" value="css" />
+      <label for="skill2">CSS</label>
+      <input type="checkbox" name="skills" id="skill3" value="javascript" />
+      <label for="skill3">JavaScript</label>
+      <input type="checkbox" name="skills" id="skill4" value="react" />
+      <label for="skill4">React</label>
+      <p>Select your City:</p>
+      <select name="city" id="city">
+        <option>Sialkot</option>
+        <option>Lahore</option>
+        <option>Islamabad</option>
+        <option>Karachi</option>
+        <option>Multan</option>
+      </select>
+      <p>Enter your Complete Address:</p>
+      <textarea cols="20" rows="6"></textarea><br /><br />
+      <!-- Extra -->
+      <label for="date">Select Date</label>
+      <input type="date" id="date" /><br /><br />
+      <label for="fileupload">Upload File</label>
+      <input type="file" id="fileupload" /><br /><br />
+      <label for="color">Pick a Color</label>
+      <input type="color" id="color"><br><br>
+      <label for="range">Select a range</label>
+      <input type="range" id="range"><br><br>
+      <label for="search">Search</label>
+      <input type="search" id="search"><br><br>
+      <button type="submit">Submit</button>
+      <button type="reset">Reset</button>
+    </form>
+  </body>
+</html>
