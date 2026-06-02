@@ -3,7 +3,7 @@ body{
     margin: 0;
     padding: 0;
 }
-.burger-card{
+.card{
     background-color: white;
     width: 300px;
     padding: 20px;
@@ -13,35 +13,7 @@ body{
   text-align: center;
   transition: 0.4s;
 }
-.burger-card:hover{
-    transform: scale(1.05);
-    box-shadow: 0px 0px 20px grey;
-}
-.shoes-card{
-    background-color: white;
-    width: 300px;
-    padding: 20px;
-  margin: 50px auto;
-  border-radius: 15px;
-  box-shadow: 0px 0px 10px grey;
-  text-align: center;
-  transition: 0.4s;
-}
-.shoes-card:hover{
-    transform: scale(1.05);
-    box-shadow: 0px 0px 20px grey;
-}
-.watch-card{
-    background-color: white;
-    width: 300px;
-    padding: 20px;
-  margin: 50px auto;
-  border-radius: 15px;
-  box-shadow: 0px 0px 10px grey;
-  text-align: center;
-  transition: 0.4s;
-}
-.watch-card:hover{
+.card:hover{
     transform: scale(1.05);
     box-shadow: 0px 0px 20px grey;
 }
