@@ -1,82 +1,82 @@
-body{
-    background-color: lightgreen;
-    margin: 0;
-    padding: 0;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+body {
+  background-color: lightgreen;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px;
-    flex-wrap: wrap;
-    border-bottom: 2px solid brown;
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  border-bottom: 2px solid brown;
 }
-a{
-    text-decoration: none;
-    color: black;
-    padding: 10px 20px;
-    display: inline-block;
-    transition: 0.3s;
+a {
+  text-decoration: none;
+  color: black;
+  padding: 10px 20px;
+  display: inline-block;
+  transition: 0.3s;
 }
-a:hover{
-    color: brown;
-    transform: scale(1.08);
+a:hover {
+  color: brown;
+  transform: scale(1.08);
 }
-h2{
-    padding: 10px 20px;
-    color: brown;
+h2 {
+  padding: 10px 20px;
+  color: brown;
 }
-.cards-container{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 20px;
-    flex-wrap: wrap;
-    gap: 50px;
+.cards-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  flex-wrap: wrap;
+  gap: 50px;
 }
-.card{
-    background-color: white;
-    width: 300px;
-    padding: 20px;
-    box-shadow: 0px 0px 10px grey;
-    border-radius: 10px;
-    text-align: center;
-    transition: 0.3s;
+.card {
+  background-color: white;
+  width: 300px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px grey;
+  border-radius: 10px;
+  text-align: center;
+  transition: 0.3s;
 }
-.card:hover{
-    transform: scale(1.05);
-    box-shadow: 0px 0px 20px grey;
+.card:hover {
+  transform: scale(1.05);
+  box-shadow: 0px 0px 20px grey;
 }
-img{
-    width: 100%;
-    border-radius: 10px;
-    border: 1px solid gray;
-    object-fit: cover;
-    height: 200px;
+img {
+  width: 100%;
+  border-radius: 10px;
+  border: 1px solid gray;
+  object-fit: cover;
+  height: 200px;
 }
-button{
-    border: none;
-    background-color: brown;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 10px;
-    transition: 0.3s;
+button {
+  border: none;
+  background-color: brown;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+  transition: 0.3s;
 }
-button:hover{
-    cursor: pointer;
-    background-color: lightgreen;
-    color: black;
+button:hover {
+  cursor: pointer;
+  background-color: lightgreen;
+  color: black;
 }
-footer{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-    flex-wrap: wrap;
-    border-top: 2px solid brown;
-    margin-top: auto;
-    padding: 10px;
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-wrap: wrap;
+  border-top: 2px solid brown;
+  margin-top: auto;
+  padding: 10px;
 }
