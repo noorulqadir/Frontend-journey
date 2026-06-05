@@ -1,0 +1,44 @@
+body{
+    background-color: lightgreen;
+    margin: 0;
+    padding: 0;
+}
+.cards-container{
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0px 0px 10px grey;
+    border-radius: 10px;
+    text-align: center;
+    transition: 0.3s;
+}
+.card:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 0px 20px grey;
+}
+img{
+    width: 100%;
+    border-radius: 10px;
+    border: 1px solid gray;
+}
+button{
+    border: none;
+    background-color: brown;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+button:hover{
+    cursor: pointer;
+    background-color: lightgreen;
+    color: black;
+}
